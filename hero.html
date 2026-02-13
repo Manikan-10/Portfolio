@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="scroll-smooth dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Manikandan S | Minimalist Luxury Tech Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;family=Outfit:wght@200;300;400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: "#0A0A0A",
+                        liquid_silver: "#E5E7EB",
+                        deep_sapphire: "#1E3A8A",
+                        slate_blue: "#1E293B",
+                    },
+                    fontFamily: {
+                        serif: ["Playfair Display", "serif"],
+                        sans: ["Outfit", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .micro-glow {
+                box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 4px 24px -1px rgba(0, 0, 0, 0.4);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            .micro-glow:hover {
+                border-color: rgba(229, 231, 235, 0.2);
+                box-shadow: 0 0 15px rgba(30, 58, 138, 0.1), 0 8px 32px -1px rgba(0, 0, 0, 0.5);
+            }
+            .radial-depth {
+                background: radial-gradient(circle at 50% -20%, #1e293b22 0%, #0a0a0a 70%);
+            }
+            .text-liquid {
+                background: linear-gradient(135deg, #ffffff 0%, #9ca3af 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body class="bg-obsidian text-slate-300 font-body antialiased overflow-x-hidden">
+<nav class="fixed top-0 w-full z-50 bg-obsidian/80 backdrop-blur-md border-b border-white/5">
+<div class="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
+<div class="flex items-center space-x-4">
+<div class="w-12 h-12 border border-white/10 rounded-full flex items-center justify-center relative group">
+<div class="absolute inset-0 rounded-full bg-deep_sapphire/10 blur-md opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="text-liquid_silver font-serif text-2xl relative">M</span>
+</div>
+<span class="font-serif text-xl tracking-wider text-liquid_silver">Manikandan S</span>
+</div>
+<div class="hidden md:flex items-center space-x-12 text-[10px] font-medium uppercase tracking-[0.3em] text-slate-500">
+<a class="hover:text-liquid_silver transition-colors" href="#">Journal</a>
+<a class="hover:text-liquid_silver transition-colors" href="#">Expertise</a>
+<a class="hover:text-liquid_silver transition-colors" href="#">Selected Works</a>
+<a class="hover:text-liquid_silver transition-colors" href="#">Inquiry</a>
+</div>
+<div class="flex items-center">
+<a class="text-[10px] font-medium uppercase tracking-[0.3em] text-liquid_silver border border-white/10 px-6 py-3 rounded-full hover:bg-white/5 transition-all" href="mailto:manikandanselvam1902@gmail.com">
+                    Get in Touch
+                </a>
+</div>
+</div>
+</nav>
+<main class="relative min-h-screen flex items-center justify-center pt-24 radial-depth">
+<div class="absolute top-1/4 left-1/3 w-[600px] h-[600px] bg-deep_sapphire/5 rounded-full blur-[140px] -z-10"></div>
+<div class="max-w-7xl mx-auto px-8 w-full py-20 relative z-10">
+<div class="flex flex-col items-center text-center">
+<div class="inline-flex items-center space-x-3 px-5 py-2 rounded-full border border-white/5 bg-white/[0.02] text-[10px] font-medium tracking-[0.4em] uppercase text-slate-500 mb-12">
+<span class="w-1.5 h-1.5 rounded-full bg-deep_sapphire shadow-[0_0_8px_#1e3a8a]"></span>
+<span>Systems Architect &amp; Engineer</span>
+</div>
+<h1 class="font-serif text-6xl md:text-9xl mb-8 tracking-tight leading-[0.9] text-liquid">
+                    Engineering <br/>
+<span class="italic font-normal opacity-90">The Future</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-500 font-light max-w-2xl mx-auto mb-16 leading-relaxed tracking-wide">
+                    A refined synthesis of <span class="text-liquid_silver">Hardware architecture</span> and <span class="text-liquid_silver">Digital intelligence</span>. crafting premium technological solutions for a sophisticated world.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-12">
+<a class="group relative flex items-center space-x-4" href="#projects">
+<span class="text-[10px] uppercase tracking-[0.5em] text-liquid_silver font-semibold">View Portfolio</span>
+<span class="w-12 h-[1px] bg-white/20 group-hover:w-20 group-hover:bg-liquid_silver transition-all duration-500"></span>
+</a>
+<div class="flex items-center space-x-6">
+<a class="text-slate-500 hover:text-liquid_silver transition-colors" href="#">
+<svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.041-1.416-4.041-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+</a>
+<a class="text-slate-500 hover:text-liquid_silver transition-colors" href="#">
+<svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-32 grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-5xl mx-auto">
+<div class="micro-glow p-8 rounded-2xl bg-white/[0.01] flex flex-col items-center group transition-all duration-500">
+<span class="material-symbols-outlined text-deep_sapphire mb-4 opacity-60 group-hover:opacity-100 transition-opacity">developer_board</span>
+<span class="text-[9px] font-bold tracking-[0.3em] text-slate-600 uppercase mb-1">Architecture</span>
+<span class="font-serif text-sm text-liquid_silver">Hardware</span>
+</div>
+<div class="micro-glow p-8 rounded-2xl bg-white/[0.01] flex flex-col items-center group transition-all duration-500">
+<span class="material-symbols-outlined text-deep_sapphire mb-4 opacity-60 group-hover:opacity-100 transition-opacity">memory</span>
+<span class="text-[9px] font-bold tracking-[0.3em] text-slate-600 uppercase mb-1">Core</span>
+<span class="font-serif text-sm text-liquid_silver">Firmware</span>
+</div>
+<div class="micro-glow p-8 rounded-2xl bg-white/[0.01] flex flex-col items-center group transition-all duration-500">
+<span class="material-symbols-outlined text-deep_sapphire mb-4 opacity-60 group-hover:opacity-100 transition-opacity">terminal</span>
+<span class="text-[9px] font-bold tracking-[0.3em] text-slate-600 uppercase mb-1">Logic</span>
+<span class="font-serif text-sm text-liquid_silver">Software</span>
+</div>
+<div class="micro-glow p-8 rounded-2xl bg-white/[0.01] flex flex-col items-center group transition-all duration-500">
+<span class="material-symbols-outlined text-deep_sapphire mb-4 opacity-60 group-hover:opacity-100 transition-opacity">neurology</span>
+<span class="text-[9px] font-bold tracking-[0.3em] text-slate-600 uppercase mb-1">Advanced</span>
+<span class="font-serif text-sm text-liquid_silver">Neural AI</span>
+</div>
+</div>
+</div>
+</main>
+<section class="py-40 relative bg-obsidian" id="projects">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-baseline mb-24 gap-6 border-b border-white/5 pb-12">
+<div>
+<h2 class="text-5xl font-serif text-liquid_silver mb-4 italic">The Collection</h2>
+<p class="text-slate-500 text-xs uppercase tracking-[0.4em]">Curated Technical Research &amp; Engineering</p>
+</div>
+<a class="text-liquid_silver text-[10px] uppercase tracking-[0.4em] flex items-center group" href="#">
+                    Archive
+                    <span class="material-symbols-outlined ml-4 text-lg group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid md:grid-cols-2 gap-16">
+<div class="group micro-glow p-1 rounded-3xl bg-white/[0.02] transition-all duration-700">
+<div class="bg-obsidian/40 p-12 rounded-[1.4rem] h-full flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-center mb-12">
+<div class="w-14 h-14 micro-glow rounded-full flex items-center justify-center text-liquid_silver/40 group-hover:text-liquid_silver transition-colors">
+<span class="material-symbols-outlined">satellite_alt</span>
+</div>
+<span class="text-[9px] text-slate-600 font-bold uppercase tracking-[0.3em]">Antenna Design</span>
+</div>
+<h3 class="text-3xl font-serif text-liquid_silver mb-6 group-hover:italic transition-all">Metasurface Array</h3>
+<p class="text-slate-500 text-sm leading-relaxed mb-10 font-light tracking-wide">
+                                An exploration of mmWave structures utilizing Rogers substrates for high-frequency signal integrity in 6G communications.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<span class="text-[9px] text-slate-400 border border-white/5 px-4 py-1.5 rounded-full uppercase tracking-widest">RF Engineering</span>
+<span class="text-[9px] text-slate-400 border border-white/5 px-4 py-1.5 rounded-full uppercase tracking-widest">HFSS Analysis</span>
+</div>
+</div>
+</div>
+<div class="group micro-glow p-1 rounded-3xl bg-white/[0.02] transition-all duration-700">
+<div class="bg-obsidian/40 p-12 rounded-[1.4rem] h-full flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-center mb-12">
+<div class="w-14 h-14 micro-glow rounded-full flex items-center justify-center text-liquid_silver/40 group-hover:text-liquid_silver transition-colors">
+<span class="material-symbols-outlined">home_iot_device</span>
+</div>
+<span class="text-[9px] text-slate-600 font-bold uppercase tracking-[0.3em]">IoT Ecosystem</span>
+</div>
+<h3 class="text-3xl font-serif text-liquid_silver mb-6 group-hover:italic transition-all">Autonomous Flora</h3>
+<p class="text-slate-500 text-sm leading-relaxed mb-10 font-light tracking-wide">
+                                Real-time moisture analysis network powered by RTOS firmware and a cloud-native monitoring interface for remote agronomy.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<span class="text-[9px] text-slate-400 border border-white/5 px-4 py-1.5 rounded-full uppercase tracking-widest">ESP32 RTOS</span>
+<span class="text-[9px] text-slate-400 border border-white/5 px-4 py-1.5 rounded-full uppercase tracking-widest">Full-Stack IoT</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="py-20 border-t border-white/5 text-center">
+<p class="text-[10px] uppercase tracking-[0.5em] text-slate-600">© 2024 Manikandan S. Crafted for the Modern Era.</p>
+</footer>
+
+</body></html>
